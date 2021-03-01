@@ -5,6 +5,7 @@ import React from "react";
 // pros and cons
 // arrow function is easier to read
 // arrow function will be recreated for each instance, on every render
+//
 function App() {
   return <Counter />;
 }
