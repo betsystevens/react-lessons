@@ -29,6 +29,7 @@ class Counter extends React.Component {
         <h1 className="text-2xl font-bold">Counter</h1>
         <div className="w-full flex justify-evenly items-center text-2xl leading-3">
           <button
+            // 2. bound method
             onClick={this.decrease}
             className="pb-1 w-8 h-8 border-2 border-gray-300 bg-gray-200 text-justify-center text-items-center"
           >
@@ -36,7 +37,7 @@ class Counter extends React.Component {
           </button>
           <p>{this.state.count}</p>
           <button
-            // 2. arrow function
+            // 3. arrow function
             onClick={() => {
               this.increase();
             }}
